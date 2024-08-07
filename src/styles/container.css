@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #1b1d1f;
+  background-image: url(hero-image-wr.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.selected {
+  background-color: #282b30;
+  color: #d2d5da;
+}
