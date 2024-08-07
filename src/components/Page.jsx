@@ -49,7 +49,7 @@ function Page() {
     <div className="app-container py-6 lg:gap-[6rem] md:gap-[3rem] gap-[2rem] bg-contain overflow-y-scroll  ">
       <img src={logo} alt="Logo" className="sm:mt-6" />
       <div className="bg-[#1B1D1F] w-full md:w-[70%] lg:w-[60%] min-h-full border border-[#282B30] flex flex-col items-center rounded-xl gap-8">
-        <div className=" h-[9rem] sm:w-[16rem] w-[12rem] rounded-xl -mt-[6%] overflow-hidden">
+        <div className=" sm:h-[12rem] h-[8rem] sm:w-[16rem] w-[12rem] rounded-xl -mt-[6%] overflow-hidden">
           <img
             src={data[0].flags.png ? data[0].flags.png : ""}
             alt="flag"
