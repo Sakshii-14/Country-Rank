@@ -10,7 +10,7 @@ function Table() {
       <table className=" w-full sm:border-collapse border-separate border-spacing-3 ">
         <thead className=" border-b-2 border-[#282B30]">
           <tr className="h-[2.5rem] text-[#6C727F] text-[0.875rem]">
-            <th className=" align-top text-left sm:w-[10%] w-[40%] sm:border-b-0 border-b-2 border-[#282B30]">
+            <th className=" align-top text-left sm:w-[10%] w-[40%] sm:border-b-0 border-b-2 border-[#282B30] emoji-text">
               Flag
             </th>
             <th className=" text-left align-top sm:w-[15%] w-[40%] sm:border-b-0 border-b-2 border-[#282B30]">
