@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { getList, sortBy } from "./features/filterSlice";
 import { useEffect } from "react";
 import "./styles/container.css";
+import Loader from "./components/Loader";
 
 function App() {
   const dispatch = useDispatch();
@@ -19,7 +20,9 @@ function App() {
   }, [list, dispatch]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="flex app-container h-full  w-full justify-center items-center ">
+      <Loader/>
+      </div>;
   }
 
   if (error) {
