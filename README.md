@@ -1,23 +1,26 @@
-# Translate App 🌐
+# Country Rank App 🌍
 
-**Translate App** is a user-friendly application designed to help users easily translate text between multiple languages. With a clean and intuitive interface, this app enables seamless communication across language barriers.
+The **Country Rank App** is a comprehensive web application that provides detailed information about countries worldwide. Users can explore various country statistics, sort countries by population, name, and area, filter by regions, and check whether a country is a member of the United Nations and search by country name , region or subregion.
 
 ## Features
 
-- **Multi-Language Support**: Translate text between a variety of languages.
-- **User-Friendly Interface**: Simple and intuitive design for easy navigation.
+- **Country Information**: Displays details about each country, such as population, area, region, and more.
+- **Sorting**: Sort countries alphabetically, by population, or by area size.
+- **Filtering**: Filter countries by region (e.g., Africa, Asia, Europe, etc.).
+- **UN Member Status**: Check whether a country is a United Nations member.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Technologies Used
 
-- **Frontend**: React.js,Tailwind CSS , React Hooks
-- **APIs**: Utilizes translation APIs for fetching translation data
+- **Frontend**: React.js,Tailwind CSS
+- **API**: REST Countries API (for fetching country data)
 - **Deployment**: Vercel
 
 How to Use :
-Enter the text you want to translate in the input field.
-Select the source and target languages from the dropdown menus.
-Click the "Translate" button to see the translated text.
-Enjoy seamless translations!
+Browse Countries: Scroll through the list of countries, each displaying key details like population, area, region, and UN membership status.
+Sort Countries: Use the sorting options to organize countries alphabetically, by population, or by area.
+Filter by Region: Select a region from the filter options to narrow down countries from specific geographical areas.
+Check UN Membership: Easily identify whether a country is a member of the United Nations.
 
 Contributing :
-Contributions are welcome! Feel free to fork the repository and submit pull requests for new features or improvements.
+Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request.
